@@ -7,17 +7,19 @@ This is a custom Python algorithm to load, convert to raster layer and merge sev
 1. Create a main folder, i.e. `project`. 
 2. Create subfolders with brazilian states abbreviations and the federal district: AC, AL, AM, AP, BA, CE, DF, ES, GO, MA, MG, MS, MT, PA, PB, PE, PI, PR, RJ, RN, RO, RR, RS, SC, SE, SP and TO. You need to create them even if you don't have images to put inside them right now.
 
-Python version: 3.8.2 and above.
+IMPORTANT: Make sure you put the images corresponding to the raster bands B4, B5 and B6.
+
+**Python version:** 3.8.2 and above.
 
 ## Use
 
-On QGIS Python console, run the full script. IMPORTANT: do not forget to replace YOUR_FOLDER_PATH by your folder full path. 
+On QGIS Python console, run the full script. 
+
+IMPORTANT: do not forget to replace YOUR_FOLDER_PATH by your folder full path. 
 
 ```python
 generate_merged_files('YOUR_FOLDER_PATH')
 ```
-
-IMPORTANT: Make sure you put the images corresponding to the raster bands B4, B5 and B6.
 
 ## How does it work?
 
