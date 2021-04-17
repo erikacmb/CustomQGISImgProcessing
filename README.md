@@ -1,6 +1,6 @@
 # Custom QGIS Image Processing Algorithm
 
-This is a custom Python algorithm to load, convert to raster layer and merge several images of brazilian states. 
+This is a custom Python algorithm to load, convert to raster layer and merge several images of brazilian states. It was created to solve a specific problem that's why it has a lot of customizations regarding raster bands.
 
 ## Set Up
 
